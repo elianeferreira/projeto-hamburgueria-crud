@@ -1,14 +1,21 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom"
+import Menu from "./components/Menu"
+import Cardapio from "./pages/Cardapio"
+import Relatorios from "./pages/Relatorios"
+import Gestão from "./pages/Gestão"
+import Equipe from "./pages/Equipe"
 
 const Router = () => {
   return (
-    <BrowserRouter>    
+    <BrowserRouter>
+        <Menu/>
+        
       <Routes>
-      <Route path="/" element={<h1>HOME</h1>}/>
-        <Route path="/cardapio" element={<h1>CARDÁPIO</h1>}/>
-        <Route path="/relatorios" element={<h1>RELATÓRIOS</h1>}/> 
-        <Route path="/gestao" element={<h1>GESTÃO</h1>}/> 
-        <Route path="/equipe" element={<h1>EQUIPE</h1>}/>
+      
+        <Route path="/cardápio" element={<Cardapio/>} />
+        <Route path="/relatórios" element={<Relatorios/>}/> 
+        <Route path="/gestão de pedidos" element={<Gestão/>} /> 
+        <Route path="/equipe" element={<Equipe/>} />
       </Routes>
     </BrowserRouter>
     
