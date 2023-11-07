@@ -1,13 +1,13 @@
 import './App.css'
 import Router from './Router'
-import Header from './components/Header'
+import Equipe from './pages/Equipe'
 
 function App() {
  
   return (
     <div className='App'>
-       <Router/>
-      <Header />
+        <Equipe />
+        <Router/>
     </div>
     
   )
