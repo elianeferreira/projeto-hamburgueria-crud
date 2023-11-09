@@ -1,0 +1,21 @@
+/* VER COR CERTINHA */
+
+.Footer{
+    background-color: grey; 
+    display: flex;
+    max-width: 100%;
+    }
+
+.socialMedia{
+    display: flex;
+    justify-content: left;
+ /* PEGAR AS OUTRAS FORMATAÇÕES JÁ FEITAS NO HEADER */
+}
+        
+h3{
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+        
+        
