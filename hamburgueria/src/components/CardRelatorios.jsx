@@ -1,4 +1,4 @@
-import styles from ‘../styles/components/CardRelatorios.module.css’;
+// import styles from '../styles/components/CardRelatorios.module.css'
 
 const CardRelatorios = ({title, img, description}) => {
 	return(

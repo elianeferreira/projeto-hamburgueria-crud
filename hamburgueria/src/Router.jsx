@@ -8,18 +8,14 @@ import Equipe from "./pages/Equipe"
 const Router = () => {
   return (
     <BrowserRouter>
-        <Menu/>
-        
+      <Menu/>
       <Routes>
-      
-        <Route path="/cardápio" element={<Cardapio/>} />
-        <Route path="/relatórios" element={<Relatorios/>}/> 
-        <Route path="/gestão de pedidos" element={<Gestão/>} /> 
-        <Route path="/equipe" element={<Equipe/>} />
+        <Route path="/cardápio" element={<Cardapio />} />
+        <Route path="/relatórios" element={<Relatorios />}/> 
+        <Route path="/gestão de pedidos" element={<GestorPedidos />} /> 
+        <Route path="/equipe" element={<Equipe />} />
       </Routes>
     </BrowserRouter>
-    
-   
   )
 }
 

@@ -1,24 +1,15 @@
 import styles from '../styles/components/Header.module.css'
-import * as Icon from '@phosphor-icons/react';
+import Menu from './Menu'
+import hamburgueriaLogo from '../assets/logo-hamburgueria.jpg'
 
 const Header = () => {
     return(
          <div className={styles.headerContainer}>
             <div className={styles.headerRight}>
-                <img className={styles.logo} src="" alt='logo-hamburgueria'/>
+                <img className={styles.logo} src={hamburgueriaLogo} alt='logo-hamburgueria'/>
                 <nav className={styles.headerNav}>
-                    <h2>Cardápio</h2>
-                    <h2>Relatórios</h2>
-                    <h2>Gestão de Pedidos</h2>
-                    <h2>Equipe</h2>
+                    <Menu />
                 </nav>
-            </div>
-            
-            <div className={styles.headerSocialMedia}>
-                <Icon.FacebookLogo size={32} style={{color: '#ffffff'}} alt='facebook-logo' />
-                <Icon.InstagramLogo size={32} style={{color:'#ffffff'}} alt='intagram-logo' />
-                <Icon.TwitterLogo size={32}  style={{color:'#ffffff'}} alt='twitter-logo' />
-                <Icon.LinkedinLogo size={32} style={{color:'#ffffff'}} alt='linkedin-logo' />
             </div>
         </div>
     )
