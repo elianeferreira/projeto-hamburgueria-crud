@@ -1,0 +1,11 @@
+.relatoriosMain{
+    display: flex;
+}
+
+.cardsRelatorios{
+    display: block;
+}
+
+.icon{
+    margin-left: 100px;
+}

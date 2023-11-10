@@ -1,8 +1,22 @@
 .main{
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .conteudoPrincipal{
     margin-left: 100px;
-    margin-top: 200px;
+    max-width: 100%;
+}
+
+.nomeSessao{
+    padding: 0;
+ text-align: center;
+ margin: 0;
+}
+
+.equipe{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 50%;
 }

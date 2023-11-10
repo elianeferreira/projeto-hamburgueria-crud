@@ -7,10 +7,9 @@ const Header = () => {
          <div className={styles.headerContainer}>
             <div className={styles.headerRight}>
                 <img className={styles.logo} src={hamburgueriaLogo} alt='logo-hamburgueria'/>
-                <nav className={styles.headerNav}>
-                    <Menu />
-                </nav>
+                <Menu />
             </div>
+            <h2>Olá, Usuária!</h2>
         </div>
     )
 }

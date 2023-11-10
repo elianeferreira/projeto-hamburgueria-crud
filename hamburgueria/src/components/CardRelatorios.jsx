@@ -1,12 +1,13 @@
-// import styles from '../styles/components/CardRelatorios.module.css'
+import styles from '../styles/components/CardRelatorios.module.css'
 
-const CardRelatorios = ({title, img, description}) => {
+
+const CardRelatorios = () => {
 	return(
-		<>
-		<h2>{title}</h2>
-		<img src={img} />
-		<p> {description} </p>
-		</>
+		<div className={styles.cardRelatorios}>
+			<h2>{title}</h2>
+			<img src={icon}/>
+			<p> {description} </p>
+		</div>
 )
 }
 

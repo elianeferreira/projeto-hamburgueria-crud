@@ -1,0 +1,8 @@
+.main{
+    display: flex;
+}
+
+h1{
+    justify-content: center;
+    margin: 100px;
+}

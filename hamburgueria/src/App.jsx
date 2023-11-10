@@ -1,6 +1,7 @@
 import './global.css'
 import Router from './Router'
-import Equipe from './pages/Equipe'
+
+
 
 function App() {
  

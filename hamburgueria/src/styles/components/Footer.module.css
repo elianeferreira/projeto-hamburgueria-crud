@@ -2,20 +2,31 @@
 
 .Footer{
     background-color: grey; 
-    display: flex;
     max-width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
     }
 
 .socialMedia{
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
+    max-width: 10%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    /* margin-left: 10px; */
  /* PEGAR AS OUTRAS FORMATAÇÕES JÁ FEITAS NO HEADER */
 }
         
 h3{
     justify-content: center;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 600px;
+    text-align: center;
+    font-size: 15px;
 }
         
         

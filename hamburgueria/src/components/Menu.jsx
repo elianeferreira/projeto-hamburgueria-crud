@@ -1,20 +1,21 @@
 import { Link } from 'react-router-dom'
+import styles from '../styles/components/Menu.module.css'
 
 const Menu = () => {
   return (
     <nav>
-        <ul>
+        <ul className={styles.menuNav}>
             <li>
-            <Link to="/cardápio">CARDÁPIO</Link>  
+            <Link className={styles.link} to="/cardapio">Cardápio</Link>  
             </li>
             <li>
-            <Link to="/relatórios">RELATÓRIOS</Link>
+            <Link className={styles.link} to="/relatorios">Relatórios</Link>
             </li>
             <li>
-            <Link to="/gestão de pedidos">GESTÃO DE PEDIDOS</Link>  
+            <Link className={styles.link} to="/gestao-de-pedidos">Gestão de Pedidos</Link>  
             </li>
             <li>
-            <Link to="/equipe">EQUIPE</Link>
+            <Link className={styles.link} to="/equipe">Equipe</Link>
             </li>
         </ul>
     </nav>

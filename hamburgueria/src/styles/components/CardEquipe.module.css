@@ -1,4 +1,32 @@
 .CardEquipe{
-    max-width: 30%;
-    border: 1px black;
+    width: 35%;
+    border: solid 1px black;
+    border-radius: 5px;
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.CardImage{
+    border-radius: 50%;
+    max-width: 50%;
+    justify-content: center;
+}
+
+.nome{
+    color: blueviolet;
+    font-size: 20px;
+    text-align: center;
+}
+
+.profissao{
+    color: green;
+    text-align: center;
+}
+
+.descricao{
+    text-align: center;
+    color: grey;
 }
