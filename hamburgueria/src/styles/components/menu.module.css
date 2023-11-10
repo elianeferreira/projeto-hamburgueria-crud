@@ -1,0 +1,15 @@
+.menuContainer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem ;
+    gap: 10rem;
+    list-style: none;
+    
+}
+.menuLogin{
+    text-decoration: none;
+    color: rgb(250, 107, 5);
+    font-size: 1.5rem;
+}
