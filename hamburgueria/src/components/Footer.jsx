@@ -1,4 +1,4 @@
-import * as Icon from 'phosphor-icons/react';
+import * as Icon from '@phosphor-icons/react';
 import styles from '../styles/components/Footer.module.css';
 
 const Footer = () => {
