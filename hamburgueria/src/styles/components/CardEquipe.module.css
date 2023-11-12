@@ -1,24 +1,31 @@
 .CardEquipe{
-    width: 35%;
-    border: solid 1px black;
+    width: 40%;
     border-radius: 5px;
     display: block;
-    justify-content: center;
     padding: 10px;
+    margin: 15px;
+    justify-content: center;
     text-align: center;
-    margin: 20px;
 }
 
 .CardImage{
     border-radius: 50%;
     max-width: 50%;
-    justify-content: center;
+    text-align: center;
+}
+
+.Texto{
+    display: block;
+    margin: 0;
+    padding: 0%;
+    max-width: 100%;
 }
 
 .nome{
     color: blueviolet;
-    font-size: 20px;
     text-align: center;
+    padding: 5px;
+    margin: 5px;
 }
 
 .profissao{
@@ -27,6 +34,13 @@
 }
 
 .descricao{
-    text-align: center;
     color: grey;
+    text-align: center;
+}
+
+.iconeGithub{
+    border-radius: 50%;
+    background-color: rgb(150, 115, 182);
+    color: aliceblue;
+    margin-top: 10px;
 }

@@ -2,7 +2,11 @@
     display: flex;
 }
 
-h1{
+.mainTitle{
+    padding: 0;
+    text-align: center;
     justify-content: center;
-    margin: 100px;
+    margin: 0;
+    margin-top: 30px;
+    color: rgb(57, 57, 57);
 }

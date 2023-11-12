@@ -1,11 +1,36 @@
+.mainTitle{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    color: rgb(57, 57, 57); 
+}
+
 .relatoriosMain{
     display: flex;
 }
 
+.main{
+    display:block;
+    max-width: 90%;
+}
+
 .cardsRelatorios{
-    display: block;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.relatorio{
+    justify-content: center;
+    text-align: center;
+    border: solid 2px black;
+    max-width: 30%;
+    margin:20px;
 }
 
 .icon{
-    margin-left: 100px;
+    margin-top: 20px;
+    width:100%;
+    color: orangered;
 }

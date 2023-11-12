@@ -10,7 +10,7 @@ const Cardapio = () => {
       <Header />
       <div className={styles.main}>
             <LateralBar />
-            <h1>CARDÁPIO</h1>
+            <h1 className={styles.mainTitle}>CARDÁPIO</h1>
       </div>
       <Footer />
     </>

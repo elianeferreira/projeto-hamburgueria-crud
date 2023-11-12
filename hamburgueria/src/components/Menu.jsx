@@ -12,7 +12,7 @@ const Menu = () => {
             <Link className={styles.link} to="/relatorios">Relatórios</Link>
             </li>
             <li>
-            <Link className={styles.link} to="/gestao-de-pedidos">Gestão de Pedidos</Link>  
+            <Link className={styles.link} to="/gestorpedidos">Gestão de Pedidos</Link>  
             </li>
             <li>
             <Link className={styles.link} to="/equipe">Equipe</Link>
