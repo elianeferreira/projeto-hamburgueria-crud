@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudoPrincipal{
+    max-width: 90%;
+}
+
+.nomeSessao{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    color: rgb(57, 57, 57); 
+}
+
+.equipe{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 90%;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 60px;
+}

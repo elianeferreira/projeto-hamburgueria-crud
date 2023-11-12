@@ -1,0 +1,27 @@
+
+.main{
+    display: flex;
+}
+
+.gestorMain{
+    display: block;
+    text-align: center;
+    max-width: 100%;
+}
+
+.nomeSessao{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(57, 57, 57); 
+}
+
+.subtitle{
+    color: black;
+    text-align: center;
+}
+
+.icon{
+    color: orangered;
+    text-align: center;
+}
+

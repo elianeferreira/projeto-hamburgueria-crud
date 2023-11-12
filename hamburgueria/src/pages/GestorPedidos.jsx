@@ -1,16 +1,20 @@
 import styles from '../styles/pages/GestorPedidos.module.css'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
+import LateralBar from '../components/LateralBar.jsx'
+import * as Icon from '@phosphor-icons/react'
 
 const GestorPedidos = () => {
  return(
   <>
     <Header />
     <div className={styles.main}>
-      <LateralBarSemBotoes /> (CRIAR ESSE COMPONENTE)
-      <main> 
-        <img src='' alt='em construcao'/> 
-      </main>
+      <LateralBar />
+      <div className={styles.gestorMain}>
+        <h1 className={styles.nomeSessao}>GESTOR DE PEDIDOS</h1>
+        <h2 className={styles.subtitle}>Em construção</h2>
+        <Icon.Hammer className={styles.icon} size={200} />
+      </div>
     </div>
     <Footer />
   </>
