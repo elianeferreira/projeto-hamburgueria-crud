@@ -1,5 +1,5 @@
 import * as Icon from '@phosphor-icons/react';
-import styles from '../styles/components/Footer.module.css';
+import styles from '../Styles/components/Footer.module.css';
 
 const Footer = () => {
 	return(
