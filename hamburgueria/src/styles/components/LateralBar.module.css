@@ -1,0 +1,14 @@
+.lateralBar{
+    background-color: grey;
+    justify-content: first baseline;
+    width: 60px;
+    height: 80vh;
+}
+
+.Icon{
+    margin-top: 60px;
+    margin-left: 12px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: black;
+}

@@ -6,7 +6,10 @@ const Footer = () => {
         <div className={styles.Footer}>
             <h3> Criado e idealizado por FoodGirls</h3>
             <div className = {styles.socialMedia}>
-                {/* REDES SOCIAIS (Copiar do Header) */}
+                <Icon.FacebookLogo size={32} style={{color: '#ffffff'}} alt='facebook-logo' />
+                <Icon.InstagramLogo size={32} style={{color:'#ffffff'}} alt='intagram-logo' />
+                <Icon.TwitterLogo size={32}  style={{color:'#ffffff'}} alt='twitter-logo' />
+                <Icon.LinkedinLogo size={32} style={{color:'#ffffff'}} alt='linkedin-logo' />
             </div>
         </div>
 )

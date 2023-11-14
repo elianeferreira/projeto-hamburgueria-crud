@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+}
+
+.mainTitle{
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 30px;
+    color: rgb(57, 57, 57);
+}
