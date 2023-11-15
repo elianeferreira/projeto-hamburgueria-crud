@@ -12,8 +12,10 @@ const GestorPedidos = () => {
       <LateralBar />
       <div className={styles.gestorMain}>
         <h1 className={styles.nomeSessao}>GESTOR DE PEDIDOS</h1>
-        <h2 className={styles.subtitle}>Em construção</h2>
-        <Icon.Hammer className={styles.icon} size={200} />
+        <div className={styles.card}>
+          <h2 className={styles.subtitle}>EM CONSTRUÇÃO</h2>
+          <Icon.Hammer className={styles.icon} size={200} />
+        </div>
       </div>
     </div>
     <Footer />

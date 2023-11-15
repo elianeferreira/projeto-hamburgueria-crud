@@ -1,7 +1,7 @@
 import styles from '../styles/components/CardEquipe.module.css';
 import * as Icon from '@phosphor-icons/react'
 
-const CardEquipe = ({src, alt, nome, profissao, sobre}) => {
+const CardEquipe = ({src, alt, nome, profissao, sobre, href}) => {
     
     return (
         <div className={styles.CardEquipe}>
@@ -10,7 +10,9 @@ const CardEquipe = ({src, alt, nome, profissao, sobre}) => {
                 <h2 className={styles.nome}>{nome}</h2>
                 <h4 className={styles.profissao}>{profissao}</h4>
                 <p className={styles.descricao}>{sobre}</p>
-                <Icon.GithubLogo className={styles.iconeGithub} size={32} />
+                <a href={href} target='_blank'>
+                     <Icon.GithubLogo className={styles.iconeGithub} size={32} />
+                </a>
             </div>
         </div>
     )
