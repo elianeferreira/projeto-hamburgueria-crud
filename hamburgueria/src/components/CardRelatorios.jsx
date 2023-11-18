@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-import styles from '../styles/components/CardRelatorios.module.css';
-=======
 import styles from '../styles/components/CardRelatorios.module.css'
->>>>>>> bffd1d12b85a24011c748b9f15ebea374f7bbf80
+
 
 
 const CardRelatorios = ({title, description}) => {

@@ -1,13 +1,20 @@
 import Header from "../components/Header";
 import React from 'react'
 import home from '../assets/Logo.png'
+import styles from '../Styles/components/Home.module.css'
+
 
 const Home = () => {
   return (
-    
-    <Header image={Home}>
+    <>
+    <nav className={styles.menuLogin}>
+    </nav> 
 
-    </Header>
+    <header>
+      <h1>logo</h1>
+    </header>
+
+    </>   
   )
 }
 

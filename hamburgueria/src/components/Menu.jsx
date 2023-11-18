@@ -5,17 +5,16 @@ import Styles from '../Styles/components/menu.module.css'
 
 const Menu = () => {
   return (
-<<<<<<< HEAD
-    <nav className={Styles.menuContainer}>
-        
-            <li>
-            <Link ClassName={Styles.menuLogin} to="/Login">LOGIN</Link>  
-            </li>
-            
-        
-=======
     <nav>
         <ul className={styles.menuNav}>
+        <li>
+            <Link className={styles.link} to="/Home"></Link>  
+            </li>
+            
+            <li>
+            <Link className={styles.link} to="/login">Login</Link>  
+            </li>
+                      
             <li>
             <Link className={styles.link} to="/cardapio">Cardápio</Link>  
             </li>
@@ -29,7 +28,6 @@ const Menu = () => {
             <Link className={styles.link} to="/equipe">Equipe</Link>
             </li>
         </ul>
->>>>>>> bffd1d12b85a24011c748b9f15ebea374f7bbf80
     </nav>
     
   )

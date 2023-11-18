@@ -1,5 +1,3 @@
-
-
 import styles from '../styles/components/Header.module.css'
 import Menu from './Menu'
 import hamburgueriaLogo from '../assets/logo-hamburgueria.jpg'
