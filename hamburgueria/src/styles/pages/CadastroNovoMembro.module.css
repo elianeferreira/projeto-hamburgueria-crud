@@ -1,0 +1,39 @@
+.main{
+    display: flex; 
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* margin-left: 20rem; */
+}
+
+.tituloPagina{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+    color: rgb(57, 57, 57); 
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    width: 50%;
+}
+
+.buttonCadastrar{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(65, 64, 64);
+    color: #ffffff;
+    padding: 10px;
+}
+
+.buttonCadastrar:hover{
+    background-color: orangered;
+}

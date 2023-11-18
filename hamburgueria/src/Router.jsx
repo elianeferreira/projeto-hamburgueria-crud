@@ -3,9 +3,6 @@ import Cardapio from "./pages/Cardapio"
 import Relatorios from "./pages/Relatorios"
 import GestorPedidos from "./pages/GestorPedidos"
 import Equipe from "./pages/Equipe"
-import Home from "./pages/Home"
-import Login from "./pages/Login"
-
 
 const Router = () => {
   return (
@@ -18,6 +15,8 @@ const Router = () => {
         <Route path="/relatorios" element={<Relatorios />}/> 
         <Route path="/gestorpedidos" element={<GestorPedidos />} /> 
         <Route path="/equipe" element={<Equipe />} />
+
+        <Route path="/cadastronovomembro" element={<CadastroNovoMembro/>} />
 
       </Routes>
       
