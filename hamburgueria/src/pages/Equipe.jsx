@@ -1,6 +1,6 @@
 import CardEquipe from "../components/CardEquipe";
 import Header from "../components/Header"
-import Footer from '../components/Footer'
+//import Footer from '../components/Footer'
 import LateralBar from "../components/LateralBar";
 import styles from '../styles/pages/Equipe.module.css';
 import flaviana from '../assets/foto 3x4.jpg'
@@ -37,7 +37,7 @@ const Equipe = () => {
                    </div>
                 </div>    
             </div>
-            <Footer />
+            
         </>
     )
 }

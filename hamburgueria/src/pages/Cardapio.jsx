@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
 import LateralBar from '../components/LateralBar'
-import Footer from '../components/Footer'
 import styles from '../styles/pages/Cardapio.module.css'
 
 const Cardapio = () => {
@@ -12,7 +11,7 @@ const Cardapio = () => {
             <LateralBar />
             <h1 className={styles.mainTitle}>CARDÁPIO</h1>
       </div>
-      <Footer />
+      
     </>
   )
 }

@@ -1,6 +1,5 @@
 import styles from '../styles/pages/GestorPedidos.module.css'
 import Header from '../components/Header.jsx'
-import Footer from '../components/Footer.jsx'
 import LateralBar from '../components/LateralBar.jsx'
 import * as Icon from '@phosphor-icons/react'
 
@@ -18,7 +17,7 @@ const GestorPedidos = () => {
         </div>
       </div>
     </div>
-    <Footer />
+    
   </>
 )
 }

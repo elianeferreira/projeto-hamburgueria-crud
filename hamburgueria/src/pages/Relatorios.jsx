@@ -1,5 +1,4 @@
 import Header from '../components/Header.jsx';
-import Footer from '../components/Footer.jsx';
 import LateralBar from '../components/LateralBar.jsx';
 import styles from '../styles/pages/Relatorios.module.css';
 import * as Icon from '@phosphor-icons/react'
@@ -27,7 +26,7 @@ const Relatorios = () => {
         </div>
       </div>
     </div>
-		<Footer />
+		
   </>
 )
 }

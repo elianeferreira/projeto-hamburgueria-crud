@@ -1,11 +1,33 @@
+
 .menuLogin{
-    background-color: black;
+    background-color: rgb(14, 13, 13);
      display: flex;
      justify-content: flex-end;
      align-items: center;
-     padding: 3rem;
+     padding: 2rem;
 }
 
 .headerImage {
-    width: 40%;
+    width: 100%;
+    height: 5%;
+            
+}
+
+.buttonLogin{
+    
+    padding: 1rem 5rem ;
+    background-color: #fa4e0ae5;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+.buttonText{
+ background-color: #f84f07e5;
+ font-size: larger;
+ color: rgb(8, 5, 2);
+}
+    
+    
+
 }

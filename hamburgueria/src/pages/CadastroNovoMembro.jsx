@@ -1,6 +1,5 @@
 import Header from '../components/Header'
 import LateralBar from '../components/LateralBar'
-import Footer from '../components/Footer'
 import styles from '../styles/pages/CadastroNovoMembro.module.css'
 import Input from '../components/Input'
 
@@ -30,7 +29,7 @@ const CadastroNovoMembro = () => {
                 </form>
             </div>
         </div>
-        <Footer />
+        
     </>
    
   )

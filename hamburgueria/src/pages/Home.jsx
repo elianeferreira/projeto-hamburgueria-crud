@@ -1,19 +1,26 @@
 import Header from "../components/Header";
 import React from 'react'
-import home from '../assets/Logo.png'
+import Logo from '../assets/Logo.png'
 import styles from '../Styles/components/Home.module.css'
+import Footer from "../components/Footer";
 
 
-const Home = () => {
+const Home = ({title, image}) => {
   return (
     <>
     <nav className={styles.menuLogin}>
+      <div className={styles.buttonLogin}>
+        <button className={styles.buttonText} type="submit">Login</button>
+      </div>
     </nav> 
-
-    <header>
-      <h1>logo</h1>
+    
+    <header >
+      <img className={styles.headerImage} src={Logo} alt="logo Hamburgueria" title="logo Hamburgueria"/>
     </header>
 
+      
+      
+    
     </>   
   )
 }
