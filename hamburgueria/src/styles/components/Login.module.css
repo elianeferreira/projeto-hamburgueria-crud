@@ -12,34 +12,38 @@
 }
    
 
-.h1{
+h1{
     background-color: white 
      
 }
 
 h2{
-    background-color: aqua;
+    color: black;
 }
 
 .containerFormulario{
-
-    background-color: blueviolet;
+    max-height: 120vh;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
 }
 
 
 .formulario{
     width: 50%;
-    height: 50rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    background-color: black
+    align-items: center;
+  
+ 
 
 }
 
 .formularioInput{
-    width: 30%;
+    width: 50%;
     padding: 1rem 2rem;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -50,13 +54,23 @@ h2{
     width: 30%;
     padding: 1rem 2rem;
     background-color: rgb(255, 85, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
     color: black;
     border: none;
     margin-top: 1rem;
     font-size: 1rem;
     border-radius: 2px;
     cursor: pointer;
-    
+ 
     
 }
 
+.imageLogo{
+    width: 100%;
+}
+
+.headerFormulario{
+    width: 50%;
+}

@@ -14,11 +14,17 @@ const Home = ({title, image}) => {
       </div>
     </nav> 
     
-    <header >
+    <div>
+      <h1>branco</h1>
+    </div>
+
+    <header className={styles.backgroudimage} >
       <img className={styles.headerImage} src={Logo} alt="logo Hamburgueria" title="logo Hamburgueria"/>
     </header>
 
-      
+    <div>
+      <h1>branco</h1>
+    </div>
       
     
     </>   

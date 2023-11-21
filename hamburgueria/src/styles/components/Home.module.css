@@ -4,30 +4,47 @@
      display: flex;
      justify-content: flex-end;
      align-items: center;
-     padding: 2rem;
+     padding: 1rem;
 }
+h1{
+    color: white;
+    font-size: 10px;
+}
+
 
 .headerImage {
-    width: 100%;
+    width: 40%;
     height: 5%;
-            
-}
-
-.buttonLogin{
     
+}
+   
+.backgroudimage{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}  
+    
+.buttonLogin{
     padding: 1rem 5rem ;
-    background-color: #fa4e0ae5;
+    background-color: orangered;
     border: none;
     margin-top: 1rem;
     border-radius: 4px;
     cursor: pointer;
+    align-items: center;
+}
 
 .buttonText{
- background-color: #f84f07e5;
+ background-color: orangered;
  font-size: larger;
  color: rgb(8, 5, 2);
+ border: none;
+ text-align: center;
+ align-items: center;
 }
     
     
 
-}

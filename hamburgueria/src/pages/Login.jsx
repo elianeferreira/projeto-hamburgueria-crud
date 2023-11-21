@@ -1,9 +1,10 @@
 import React from 'react'
 import Home from '../assets/Logo.png'
-import HeaderLogin from'../components/HeaderLogin'
-import Header from '../components/Header'
+//import HeaderLogin from'../components/HeaderLogin'
+//import Header from '../components/Header'
+import Logo from '../assets/Logo.png'
 import Footer from '../components/Footer'
-import Styles from '../Styles/components/Login.module.css'
+import styles from '../Styles/components/Login.module.css'
 import { useState } from 'react'
 
 
@@ -20,32 +21,34 @@ const Login = () => {
   
   return (
     <>
-       <div className={Styles.Menu}>
+       <div className={styles.Menu}>
       
        </div>
      
-     <div className={Styles.Container}>
-          <h1 className={Styles.h1}>AQUI</h1>
+     <div className={styles.Container}>
+          <h1 className={styles.h1}>AQUI</h1>
      </div>
     
-     <div className={Styles.containerFormulario}>
-     
-     <form className={Styles.formulario}onSubmit={()=>{}}>
+     <div className={styles.containerFormulario}>
+     <header className={styles.headerFormulario} >
+      <img className={styles.imageLogo} src={Logo} alt="logo Hamburgueria" title="logo Hamburgueria"/>
+    </header>
+     <form className={styles.formulario}onSubmit={()=>{}}>
       <h2 >Faça seu Login</h2>
-      <input className={Styles.formularioInput} 
+      <input className={styles.formularioInput} 
       type='text'
       placeholder="Email"
       onChange={handleInputEmail}
       value={Email}  
       />
 
-      <input className={Styles.formularioInput} 
+      <input className={styles.formularioInput} 
       type='text'
       placeholder="Senha"
       onChange={handleInpuSenha}
       value={Senha}
       /> 
-     <button className={Styles.buttonFormulario} type="submit">Entrar</button>
+     <button className={styles.buttonFormulario} type="submit">Entrar</button>
     </form>
 
      </div>
