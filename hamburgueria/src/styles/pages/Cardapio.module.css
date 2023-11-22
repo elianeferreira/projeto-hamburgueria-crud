@@ -1,5 +1,23 @@
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardapio{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    max-width: 80%;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .main{
     display: flex;
+    max-width: 100%;
 }
 
 .mainTitle{

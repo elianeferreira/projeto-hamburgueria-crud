@@ -1,0 +1,29 @@
+.CardCardapio{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 0px; 
+    /* justify-content: space-around; */
+    /* padding: 15px; */
+   
+}
+
+.imghamburguer{
+
+    color: aliceblue;
+}
+
+.NomeHamburguer{
+color: aqua;
+
+}
+
+.ingredientes{
+    color: blue;
+
+}
+.Preco{
+    color: brown;
+
+
+}
