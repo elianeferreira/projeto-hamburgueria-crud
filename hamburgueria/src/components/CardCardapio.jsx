@@ -5,6 +5,7 @@ const CardCardapio = ({image, title, hamburguer, ingredientes , Preço}) => {
   return (
 
     <div className={styles.CardCardapio} >
+     
       <img className={styles.imghamburguer} src={image} alt={title} />
         <h1 className={styles.NomeHamburguer}>{hamburguer}</h1>
         <p className={styles.ingredientes}>{ingredientes}</p>
