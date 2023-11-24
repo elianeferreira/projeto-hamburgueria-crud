@@ -1,29 +1,36 @@
 .CardCardapio{
     display: flex;
     flex-direction: column;
-    width: 25%;
-    margin: 0px; 
-    /* justify-content: space-around; */
-    /* padding: 15px; */
-   
+    width: 70%;
+    margin: 0px;    
+    margin-left: 40px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    line-height: normal;
 }
 
 .imghamburguer{
-
-    color: aliceblue;
+    width: 80%;
+    margin: 5px;
 }
 
-.NomeHamburguer{
-color: aqua;
-
+.nomeHamburguer{
+color: rgb(79, 155, 79);
+background-color: black;
+font-size: 20px;
+margin: 10px 5px;
 }
 
 .ingredientes{
-    color: blue;
-
+    color: aliceblue;
+    background-color: black;
+    font-size: 12px;
+    margin: 5px;
 }
-.Preco{
-    color: brown;
-
-
+.preco{
+    color: grey;
+    font-size: 15px;
 }

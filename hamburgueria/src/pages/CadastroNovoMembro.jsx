@@ -8,6 +8,7 @@ const CadastroNovoMembro = () => {
     function cliqueBotaoCadastrar(e){
         e.preventDefault(alert('Usuário Cadastrado com Sucesso!'))
     }
+    
   return (
     <>
         <Header />
