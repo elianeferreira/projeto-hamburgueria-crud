@@ -1,16 +1,15 @@
-import Header from "../components/Header";
+
 import React from 'react'
 import Logo from '../assets/Logo.png'
 import styles from '../Styles/components/Home.module.css'
-import Footer from "../components/Footer";
-
+import { Link } from "react-router-dom";
 
 const Home = ({title, image}) => {
   return (
     <>
     <nav className={styles.menuLogin}>
       <div className={styles.buttonLogin}>
-        <button className={styles.buttonText} type="submit">Login</button>
+        <Link to='/Login'><button className={styles.buttonText} type="submit">Login</button></Link>
       </div>
     </nav> 
     
